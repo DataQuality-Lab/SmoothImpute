@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d4" for="edge" attr.name="description" attr.type="string" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;EVALUATORS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Evaluators are components of the \framework used to assess the effectiveness of different imputation methods on datasets."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;JUPYTER NOTEBOOKS&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Jupyter Notebooks is a tool used to provide an interactive computing environment for participants to explore the functionalities of the \framework library."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;MISSING DATA IMPUTATION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Missing Data Imputation is the process of filling in missing values in raw datasets to achieve completeness, which is crucial for training AI models."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;ADVISORS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Advisors are features of the \framework designed to provide personalized recommendations for imputation strategies based on specific user needs."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;PYTHON SCRIPTS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Python Scripts refer to the coding solutions provided within Jupyter Notebooks to facilitate various functionalities of the \framework library."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;LIBRARIES&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Libraries in the context of data imputation refer to software collections that implement various imputation methods, crucial for managing missing data in datasets."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;\FRAMEWORK&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"\framework is a comprehensive library designed for missing data imputation, integrating various essential components such as simulator, imputer, evaluator, and advisor, enhanced with LLM-in-the-loop capabilities."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;LARGE LANGUAGE MODELS (LLM)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Large Language Models (LLM) are advanced AI systems that augment the \framework by offering smart insights and feedback during the imputation process."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;500 REAL-WORLD AND SYNTHETIC DATASETS&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"500 Real-World and Synthetic Datasets refer to the diverse datasets used in the \framework to test and demonstrate the imputation methods and capabilities of the library."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <node id="&quot;SIMULATORS&quot;">
+      <data key="d0">"CATEGORY"</data>
+      <data key="d1">"Simulators are tools within the \framework that help model the imputation process and evaluate different scenarios for data completeness."</data>
+      <data key="d2">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </node>
+    <edge source="&quot;EVALUATORS&quot;" target="&quot;\FRAMEWORK&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The Evaluators within \framework play a key role in assessing the performance of imputation methods and ensuring data quality."</data>
+      <data key="d5">"performance assessment, data quality"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;JUPYTER NOTEBOOKS&quot;" target="&quot;\FRAMEWORK&quot;">
+      <data key="d3">7.0</data>
+      <data key="d4">"\framework is deployed within Jupyter Notebooks to allow users to interactively explore its functionalities."</data>
+      <data key="d5">"interactive computing, user engagement"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;MISSING DATA IMPUTATION&quot;" target="&quot;\FRAMEWORK&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"\framework is specifically designed to enhance the process of Missing Data Imputation by integrating multiple essential components, improving the overall method effectiveness."</data>
+      <data key="d5">"software development, data imputation"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;ADVISORS&quot;" target="&quot;\FRAMEWORK&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"Advisors provide users with tailored recommendations within the \framework to address their unique imputation needs effectively."</data>
+      <data key="d5">"user guidance, personalized recommendations"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;PYTHON SCRIPTS&quot;" target="&quot;\FRAMEWORK&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The \framework library enables participants to access Python Scripts that help in exploring various imputation methods tailored to their needs."</data>
+      <data key="d5">"user-centric tools, programming"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;LIBRARIES&quot;" target="&quot;\FRAMEWORK&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"\framework builds upon existing Libraries by integrating various imputation methods along with additional components to enhance overall functionality."</data>
+      <data key="d5">"software integration, tool enhancement"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;\FRAMEWORK&quot;" target="&quot;LARGE LANGUAGE MODELS (LLM)&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The integration of Large Language Models (LLM) enhances the \framework by providing smart, real-time feedback and assistance to users during their data imputation tasks."</data>
+      <data key="d5">"AI integration, real-time feedback"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;\FRAMEWORK&quot;" target="&quot;SIMULATORS&quot;">
+      <data key="d3">9.0</data>
+      <data key="d4">"The \framework incorporates Simulators to facilitate dynamic testing and scenario modeling for the imputation process."</data>
+      <data key="d5">"testing tools, process modeling"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+    <edge source="&quot;\FRAMEWORK&quot;" target="&quot;500 REAL-WORLD AND SYNTHETIC DATASETS&quot;">
+      <data key="d3">8.0</data>
+      <data key="d4">"The \framework utilizes 500 Real-World and Synthetic Datasets to demonstrate its effectiveness and robustness in various imputation scenarios."</data>
+      <data key="d5">"demonstration, dataset utilization"</data>
+      <data key="d6">chunk-4e61a9a3499f407081094b9751bf5789</data>
+    </edge>
+  </graph>
+</graphml>

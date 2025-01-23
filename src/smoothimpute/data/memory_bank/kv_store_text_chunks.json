@@ -1,0 +1,8 @@
+{
+  "chunk-4e61a9a3499f407081094b9751bf5789": {
+    "tokens": 265,
+    "content": "\\begin{abstract}\nMissing data imputation, which aims to fill in missing values in raw datasets to achieve the completeness of the dataset, is essential for training artificial intelligence (AI) models. \nA set of libraries are developed to assemble different imputation methods.\nHowever, existing software libraries primarily focus on implementing imputers with a limited selection of imputation methods, while neglecting critical components such as simulators and evaluators, which are essential for comprehensive imputation solutions.\nMoreover, these libraries lack the ability to provide personalized recommendations tailored to diverse imputation needs.\nIn this paper, we introduce \\framework, a comprehensive library that integrates a simulator, imputer, evaluator, and advisor, all augmented with LLM-in-the-loop capabilities. This design not only streamlines the imputation process but also offers user-centric feedback tailored to specific needs, leveraging a memory bank comprising manuals, codebases, and historical experimental results across 500 real-world and synthetic datasets. \nIn this demonstration, we showcase \\framework~using real-world datasets, offering participants access to various Python scripts within Jupyter Notebooks. Additionally, we deploy the software to enable participants to: (1) explore the diverse functionalities of \\framework, and (2) select imputation methods customized to address their unique imputation needs.\n    \n\\end{abstract}",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4e61a9a3499f407081094b9751bf5789"
+  }
+}
