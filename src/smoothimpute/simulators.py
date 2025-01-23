@@ -389,7 +389,7 @@ def generate_vocabulary_with_llm(column_names, vocab_size=50):
         dict: A dictionary of generated vocabulary for each column.
     """
     # API key
-    openai.api_key = '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'
+    
     client = openai.OpenAI()
     prompt = (
         f"Generate a vocabulary of {vocab_size} meaningful words for the following column names in a table. "

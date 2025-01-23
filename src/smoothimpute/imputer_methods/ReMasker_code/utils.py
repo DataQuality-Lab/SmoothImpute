@@ -240,7 +240,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--num_trials", type=int, help="Number trials to run. Results will be averaged with variance reported.", default=1)
 
     # Client settings
-    parser.add_argument("--openai_api", type=str, help="client connection api string.", default="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")
     parser.add_argument("--ckpt_dir", type=str, help="The path of the LLAMA model.", default="/data/jianweiw/LLM_Data_Quality/llama_finetune/models/llama-2-7b/")
     parser.add_argument("--tokenizer_path", type=str, help="The path of the tokenizer model.", default="/data/jianweiw/LLM_Data_Quality/llama_finetune/models/tokenizer.model")
     parser.add_argument("--max_seq_len", type=int, help="The size of the maximum sequence.", default=512)
