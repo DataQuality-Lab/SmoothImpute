@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "smoothimpute"
-version = "0.1.1"
+version = "0.1.4"
 description = "SmoothImpute - A comprehensive imputation library. It contains advanced imputation methods like generative models and large language models for missing data, including methods for numerical, categorical and text data."
 authors = [{ name = "Jianwei Wang", email = "jianwei.cse@gmail.com" }]
 readme = "README.md"
@@ -14,7 +14,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 [project.urls]
 Homepage = "https://github.com/DataQuality-Lab/SmoothImpute"
 Issues = "https://github.com/DataQuality-Lab/SmoothImpute/issues"
